@@ -6,6 +6,7 @@ local.properties
 
 # Documentation / Info files
 tools-information.md
+build.md
 
 # Build outputs and Gradle directories
 app/build/
