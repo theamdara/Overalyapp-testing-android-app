@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OverlayBlock</string>
+    <string name="grant_overlay_permission">Grant "Display over other apps" permission, then tap Start.</string>
+    <string name="start_overlay">Start overlay</string>
+    <string name="stop_overlay">Stop overlay</string>
+    <string name="status_granting">Waiting for permission…</string>
+    <string name="status_running">Overlay is running. Drag the block to move it; drag a corner handle to resize it on the fly.</string>
+    <string name="status_stopped">Overlay stopped.</string>
+    <string name="channel_name">Overlay control</string>
+    <string name="channel_description">Keeps the screen-blocking overlay alive.</string>
+    <string name="notification_text">Tap to manage the overlay.</string>
+    <string name="block_color">Block color</string>
+    <string name="pick_custom_color">Custom color…</string>
+    <string name="pick_color">Pick a color</string>
+    <string name="color_black">Black</string>
+    <string name="color_dark_gray">Dark gray</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_red">Red</string>
+    <string name="color_green">Green</string>
+    <string name="color_white">White</string>
+</resources>

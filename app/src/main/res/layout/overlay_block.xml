@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blockRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The blocking surface: opaque, absorbs all touches so the app underneath
+         cannot be used in this area. Background color is set at runtime. -->
+    <View
+        android:id="@+id/blockSurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Subtle corner grips: blended into the block color (slightly lighter),
+         just visible enough to hint that corners/edges can be dragged. -->
+    <View
+        android:id="@+id/handleTopLeft"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|start"
+        android:background="@drawable/handle_bg" />
+
+    <View
+        android:id="@+id/handleTopRight"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|end"
+        android:background="@drawable/handle_bg" />
+
+    <View
+        android:id="@+id/handleBottomLeft"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="bottom|start"
+        android:background="@drawable/handle_bg" />
+
+    <View
+        android:id="@+id/handleBottomRight"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/handle_bg" />
+
+</FrameLayout>
