@@ -1,0 +1,13 @@
+# Keystores
+keystore/debug.keystore
+
+# Local configuration files
+local.properties
+
+# Documentation / Info files
+tools-information.md
+
+# Build outputs and Gradle directories
+app/build/
+.gradle/
+.gradle-home/
